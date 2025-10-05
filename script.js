@@ -33,16 +33,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // 表单提交处理
-    const contactForm = document.querySelector('.contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('感谢您的留言！我们会尽快回复您。');
-            this.reset();
-        });
-    }
-
     // 移动端菜单切换
     const mobileMenuButton = document.createElement('div');
     mobileMenuButton.innerHTML = '☰';
